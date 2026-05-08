@@ -19,6 +19,7 @@ nav:
   - Labs:
       - labs/index.md
       - Starting my RHCSA lab notebook: labs/rhcsa-lab-notebook-start.md
+      - RHCSA lab environment: labs/rhcsa-lab-environment.md
   - Troubleshooting:
       - troubleshooting/index.md
   - Scripts:
