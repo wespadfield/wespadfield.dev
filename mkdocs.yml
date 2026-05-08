@@ -14,11 +14,15 @@ theme:
 nav:
   - Home: index.md
   - About: about.md
-  - Notes: notes/index.md
-  - Labs: labs/index.md
+  - Notes:
+      - notes/index.md
+  - Labs:
+      - labs/index.md
       - Starting my RHCSA lab notebook: labs/rhcsa-lab-notebook-start.md
-  - Troubleshooting: troubleshooting/index.md
-  - Scripts: scripts/index.md
+  - Troubleshooting:
+      - troubleshooting/index.md
+  - Scripts:
+      - scripts/index.md
 
 plugins:
   - search
