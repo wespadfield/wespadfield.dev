@@ -1,0 +1,37 @@
+site_name: Wes Padfield
+site_description: Linux systems, RHEL labs, and sysadmin field notes
+site_url: https://wespadfield.dev
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Notes:
+      - notes/index.md
+  - Labs:
+      - labs/index.md
+      - Starting my RHCSA lab notebook: labs/rhcsa-lab-notebook-start.md
+  - Troubleshooting:
+      - troubleshooting/index.md
+  - Scripts:
+      - scripts/index.md
+
+plugins:
+  - search
+  - tags
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
