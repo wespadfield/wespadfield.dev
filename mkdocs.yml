@@ -4,6 +4,27 @@ site_url: https://wespadfield.dev
 
 theme:
   name: material
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: teal
+      accent: deep orange
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: teal
+      accent: deep orange
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    logo: fontawesome/solid/w
   features:
     - navigation.sections
     - navigation.top
