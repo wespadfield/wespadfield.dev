@@ -18,16 +18,16 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Dark mode
-      primary: teal
-      accent: deep orange
+      primary: yellow
+      accent: blue
 
     # Light Mode
     - scheme: default
       toggle:
         icon: material/weather-night
         name: Light mode
-      primary: teal
-      accent: deep orange
+      primary: blue
+      accent: yellow
   font:
     text: Roboto
     code: Roboto Mono
