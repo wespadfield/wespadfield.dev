@@ -7,6 +7,7 @@ site_author: Wes Padfield
 # Repository
 repo_name: wespadfield/wespadfield.dev
 repo_url: https://github.com/wespadfield/wespadfield.dev
+edit_uri: edit/main/docs/
 
 # Configuration
 theme:
@@ -33,7 +34,7 @@ theme:
   icon:
     logo: material/alpha-w-box
   features:
-    - content.action.edit
+    # - content.action.edit
     - content.action.view
     - content.code.annotate
     - content.code.copy
