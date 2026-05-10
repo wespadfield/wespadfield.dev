@@ -1,7 +1,14 @@
+# Project information
 site_name: Wes Padfield
 site_description: Linux systems, RHEL labs, and sysadmin field notes
 site_url: https://wespadfield.dev
+site_author: Wes Padfield
 
+# Repository
+repo_name: wespadfield/wespadfield.dev
+repo_url: https://github.com/wespadfield/wespadfield.dev
+
+# Configuration
 theme:
   name: material
   palette:
@@ -24,17 +31,39 @@ theme:
     text: Roboto
     code: Roboto Mono
   icon:
-    logo: fontawesome/solid/w
+    logo: material/alpha-w-box
   features:
-    - navigation.sections
-    - navigation.top
-    - search.highlight
-    - search.suggest
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
     - content.code.copy
+    # - content.code.select
+    # - content.footnote.tooltips
+    # - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    # - navigation.instant
+    # - navigation.instant.prefetch
+    # - navigation.instant.progress
+    # - navigation.prune
+    - navigation.sections
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    # - toc.integrate
+  favicon: images/favicon.svg
 
+# Page tree
 nav:
   - Home: index.md
-  - About: about.md
   - Notes:
       - notes/index.md
   - Labs:
@@ -45,15 +74,23 @@ nav:
       - troubleshooting/index.md
   - Scripts:
       - scripts/index.md
+  - About: about.md
 
+# Plugins
 plugins:
   - search
   - tags
 
+# Extensions
 markdown_extensions:
   - admonition
   - tables
   - toc:
       permalink: true
-  - pymdownx.highlight
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
   - pymdownx.superfences
